@@ -1,10 +1,14 @@
 import './App.css'
+import Authentication from './pages/Authentication'
+import HomePage from './pages/HomePage'
 
 function App() {
-
+  const user = true
   return (
-    <div className="App">
-      <h1>Instagram Clone</h1>
+    <div>
+      {
+        user ? <HomePage /> : <Authentication />
+      }
     </div>
   )
 }

@@ -1,0 +1,19 @@
+.LeftSideBar>img{
+    width: 80px;
+}
+
+.allOptions {
+    display: flex;
+    flex-direction: column;
+}
+.oneOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.oneOptions>h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}

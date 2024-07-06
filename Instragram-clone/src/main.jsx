@@ -5,6 +5,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <div onContextMenu={(event) => { event.preventDefault() }}>
+      <App />
+    </div>
   </React.StrictMode>,
-)
